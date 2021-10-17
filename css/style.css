@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.button-bg-blue {
+    background-color: rgb(19, 19, 83);
+}
+
+.nav-txt-color {
+    color: rgb(4, 4, 70) !important;
+}
+
+.bg-ash {
+    background-color: #dcdcdc;
+}
+
+.satelite-blue, .txt-color {
+    background-color: midnightblue;
+}
+/* .blog-navy-bg {
+    background-color: navy;
+} */
+
+.get-answers-sec {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../image/curved-bg.png);
+}
+
+.index-img {
+    width: 5rem;
+}
+
+.satelite-rectangles {
+    position: inherit;
+    border: 2px solid red;
+}
+
+.satelite-bg-img {
+    background-image: url(../image/telescopes.png);
+}
+
+
+
+/* .satelite-bg-img .circle {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    background-color: blueviolet;
+    opacity: 0.3;
+} */
+
+.satelite-bg-img .img-1 {
+    width: 6rem;
+    height: 6rem;
+}
+
+.satelite-bg-img .img-2 {
+    width: 10rem;
+    height: 10rem;
+}
+
