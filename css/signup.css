@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.btn-dark-category{
+    color: #fff;
+    background-color: #1E79A1;
+    border: 1px solid #1E79A1;
+    border-radius: 15px;
+    width: 150px;
+
+}
+.btn-light-category{
+    color: #1E79A1;
+    background-color: #ffffff;
+    border: 1px solid #1E79A1;
+    border-radius: 15px;
+    width: 150px;
+}
