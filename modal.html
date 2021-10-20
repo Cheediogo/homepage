@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>admin-users</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/admin-user.css">
+    <link rel="stylesheet" href="./css/admin_nav_side_bar.css">
+</head>
+<body>
+    <style>
+    </style>
+    <!-- NEW CATEGORY MODAL  -->
+
+    <!-- LINK TO MODAL -->
+    <a href="#new-category" class=" text-decoration-none "data-bs-toggle="modal" data-bs-target="#new-category">Add Category</a>
+    <!-- MODAL BODY -->
+    <div class="modal fade" id="new-category" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="newCategoryLabel" aria-hidden="true">
+        <div class="modal-dialog user-mod">
+        <div class="modal-content modal-cnt">
+            <div class="modal-body text-center">
+                <h4 class="fw-bold mb-5">Enter a new Category</h4>
+                <input class="rounded px-4 border-1 py-2" type="text" placeholder="Enter Category Name">
+            </div>
+            <div class="modal-footer border-0 d-flex justify-content-evenly w-100">
+                <button type="submit" class="btn next-link border-primary mod-btn1 btn-lg text-white" data-bs-dismiss="modal">Add</button>
+                <button type="button" class="btn  btn-lg text-dark border-primary  btn-c2" data-bs-dismiss="modal" aria-label="Close">Cancel</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+
+     <!-- EDIT CATEGORY MODAL  -->
+
+    <!-- LINK TO MODAL -->
+    <a href="#edit-category" class=" text-decoration-none" data-bs-toggle="modal" data-bs-target=".edit-category">Edit Category</h6></a>
+    <!-- MODAL BODY -->
+    <div class="modal fade edit-category" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="editCategoryLabel" aria-hidden="true">
+        <div class="modal-dialog user-mod">
+        <div class="modal-content modal-cnt">
+            <div class="modal-body text-center">
+                <h4 class="fw-bold mb-5">Edit Category</h4>
+                <input class="rounded px-4 border-1 py-2" type="text" placeholder="Enter Category Name">
+            </div>
+            <div class="modal-footer border-0 d-flex justify-content-evenly w-100">
+                <button type="submit" class="btn next-link border-primary mod-btn1 btn-lg text-white" data-bs-dismiss="modal">Add</button>
+                <button type="button" class="btn  btn-lg text-dark border-primary  btn-c2" data-bs-dismiss="modal" aria-label="Close">Cancel</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+
+     <!-- SEND MESSAGE MODAL  -->
+
+    <!-- LINK TO MODAL -->
+    <a href="#send-message" class=" text-decoration-none "data-bs-toggle="modal" data-bs-target="#send-message">Send Message</a>
+    <!-- MODAL BODY -->
+    <div class="modal fade" id="send-message" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="SendMessageLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+        <div class="  modal-content modal-cnt d-flex align-items-center flex-column justify-content-between align-content-center">
+           <div class="" style="background: #EEEEEE80;">
+            <div class="modal-body text-center">
+                <div class="d-flex pb-4 border rounded px-4 pt-2 bg-white border-dark">
+                     <p class=" me-1 border rounded-pill px-2 py-1" style="background: #C4C4C4;">Mary Spencer <a href="#"><img src="./MARY/close_24px.png" width="15px" alt="Cancel"></a></p>
+                     <p class=" me-1 border rounded-pill px-2 py-1" style="background: #C4C4C4;">Mary Spencer <a href="#"><img src="./MARY/close_24px.png" width="15px" alt="Cancel"></a></p>
+                     <p class=" me-1 border rounded-pill px-2 py-1" style="background: #C4C4C4;">Mary Spencer <a href="#"><img src="./MARY/close_24px.png" width="15px" alt="Cancel"></a></p>
+                     <p class=" me-1 border rounded-pill px-2 py-1" style="background: #C4C4C4;">Mary Spencer <a href="#"><img src="./MARY/close_24px.png" width="15px" alt="Cancel"></a></p>
+                     <p class="me-1 border rounded-pill px-2" style="background: #C4C4C4;">Mary Spencer <a href="#"><img src="./MARY/close_24px.png" width="15px" alt="Cancel"></a></p>
+                </div>
+                <div class="d-md-none">
+                    <div class="d-flex py-1 justify-content-center align-items-baseline">
+                        <p class="pe-1">Send messeage to all users</p>
+                       <div class=""> <input type="checkbox" name="" id=""></div>
+                    </div>
+                </div>
+                <div class=" d-none d-md-block">
+                    <div class="d-flex py-1 justify-content-end align-items-baseline">
+                        <p class="pe-1">Send messeage to all users</p>
+                       <div class=""> <input type="checkbox" name="" id=""></div>
+                    </div>
+                </div>
+                <div ><textarea name="" class="rounded" id=""  rows="9" style="resize: none; width: 100%;"></textarea></div>
+             </div>
+             <div class="d-flex w-100 gap-1 py-3  justify-content-center mx-3 ">
+                 <div class="w-50"><input class="form-control border-dark" type="text" placeholder="Type a message"></div>
+                 <div class=""><a href="#"><img src="./MARY/image_24px.png" width="40px" alt="add image"></a></div>
+                 <button type="submit" class="btn next-link border-primary  text-white" data-bs-dismiss="modal" style="width: 150px;">Send</button>
+             </div>
+           </div>
+        </div>
+        </div>
+    </div>
+    <script src="./script/bootstrap.min.js"></script>
+</body>
+</html>
+
+  
+  
